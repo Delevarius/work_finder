@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Input from '../../lib/components/Input';
 import InputArea from '../../lib/components/InputArea';
 import { validateEmail } from '../utils';
+import '../index.css';
 
 const Questions = () => {
   const [name, changeName] = useState('')
@@ -9,9 +10,9 @@ const Questions = () => {
   const [isValid, setValidity] = useState(true)
   const [message, changeMessage] = useState('')
   return (
-    <div className="Questions">
-        <div>QUESTION ? WE ARE HERE TO HELP !</div>
-        <div>
+    <div className="questions_wrapper">
+        <div className="questions_title">QUESTION ? WE ARE HERE TO HELP !</div>
+        <div className="questions_inputs_wrapper">
           <Input
             title="Name"
             value={name}
@@ -43,6 +44,7 @@ const Questions = () => {
           />
         </div>
         <button
+          className="questions_submit_button"
           onClick={() =>{
             if(isValid){
               alert('submited')

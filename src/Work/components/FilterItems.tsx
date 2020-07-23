@@ -2,16 +2,15 @@ import React from 'react';
 
 const Filter = () => {
   return (
-    <div>
+    <div className="filter_wrapper">
         <button>View Case</button>
-        <div>
+        <div className="filter_option_wrapper">
             <div>Show me</div>
             <select>
                 <option>all work</option>
             </select>
         </div>
-
-        <div>
+        <div className="filter_option_wrapper">
             <div>in</div>
             <select>
                 <option>all industries</option>

@@ -7,7 +7,6 @@ import Component from './components';
 
 function mapStateToProps(state : any) {
   const { workItems } = state.work;
-  console.log(state)
     return {
       workItems
     };

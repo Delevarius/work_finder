@@ -1,0 +1,8 @@
+.questions_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.questions_inputs_wrapper {
+    
+}

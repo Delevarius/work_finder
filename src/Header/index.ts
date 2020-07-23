@@ -1,3 +1,3 @@
-import Questions from './components';
+import Header from './components';
 
-export default Questions;
+export default Header;
