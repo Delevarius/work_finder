@@ -2,23 +2,34 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+
 }
 .filter_option_wrapper {
     display: flex;
 }
 .filter_wrapper{
     padding: 10px;
+    padding-right: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .work_wrapper {
     padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .work_item_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     padding: 20px;
 }
 .work_item_image {
- width: 585px;
- height: 500px;
+    width: 585px;
+    height: 500px;
 } 
 .work_item_title {
 

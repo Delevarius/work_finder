@@ -1,14 +1,3 @@
-.questions_wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.questions_inputs_wrapper {
-    
-}
 .header_wrapper{
     display: flex;
     flex-direction: row;

@@ -3,44 +3,53 @@
         {
             "title": "Bol.com",
             "description":"A summer island in the Netherlands",
-            "image": "/images/bolcom.png"
+            "image": "/images/bolcom.png",
+            "genre": "season"
         },
         {
             "title": "KEMPEN",
             "description":"Not some average banking website",
-            "image": "/images/kempen.png"
+            "image": "/images/kempen.png",
+            "genre": "office"
         },
         {
             "title": "Philips",
             "description":"Beautiful design meets innovative technology",
-            "image": "/images/philips.png"
+            "image": "/images/philips.png",
+            "genre": "design"
         },
         {
             "title": "Gemeentemusem",
             "description":"A 100 years of Mondriaan & De Stijl",
-            "image": "/images/bolcom.png"
+            "image": "/images/bolcom.png",
+            "genre": "office"
         },
         {
             "title": "MICROSOFT",
-            "description":"Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+            "description":"Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+            "genre": "gaming"
         },
         {
             "title": "O’NEILL",
-            "description":"Integrating existing content into O’Neill’s new e-commerce platform"
+            "description":"Integrating existing content into O’Neill’s new e-commerce platform",
+            "genre": "content"
         },
         {
             "title": "Florensis",
             "description":"Rethinking the entire online ecosystem",
-            "image": "/images/florensis.png"
+            "image": "/images/florensis.png",
+            "genre": "office"
         },
         {
             "title": "Be Lighting",
             "description":"Delivering clarity on a global scale",
-            "image": "/images/lightning.png"
+            "image": "/images/lightning.png",
+            "genre": "office"
         },
         {
             "title": "BUTLINS",
-            "description":"Enhancing customer experience for personalised holiday planning using real time data"
+            "description":"Enhancing customer experience for personalised holiday planning using real time data",
+            "genre": "marketing"
         },
         {
             "title": "Vacanseselect",
@@ -49,27 +58,32 @@
         {
             "title": "CHOCOMEL",
             "description":"A campaign for the limited edition letter packs",
-            "image": "/images/chocomel.png"
+            "image": "/images/chocomel.png",
+            "genre": "marketing"
         },
         {
             "title": "JBL",
             "description":"Live like a champion with Jerome Booteng",
-            "image": "/images/jbl.png"
+            "image": "/images/jbl.png",
+            "genre": "music"
         },
         {
             "title": "ZALANDO",
             "description":"Innovative SEO and content strategy for Zalando",
-            "image": "/images/zalando.png"
+            "image": "/images/zalando.png",
+            "genre": "office"
         },
         {
             "title": "Liberty Global",
             "description":"IDelivering complex commerce solutions",
-            "image": "/images/liberty-global.png"
+            "image": "/images/liberty-global.png",
+            "genre": "marketing"
         },
         {
             "title": "ARLA",
             "description":"Swipe to find your next holiday destination",
-            "image": "/images/arla.png"
+            "image": "/images/arla.png",
+            "genre": "dairy"
         }
     ]
 }

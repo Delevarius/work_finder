@@ -1,10 +1,6 @@
 // src/store/chat/reducers.ts
-import { LOAD_DATA } from './types'
+import { LOAD_DATA, initialState } from './types'
 
-const initialState: any = {
-  workItems: []
-};
-  
 function workReducer (state = initialState, action: any) {
     switch(action.type) {
       case LOAD_DATA:
