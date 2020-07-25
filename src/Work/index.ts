@@ -1,14 +1,22 @@
-// src/Work/types.ts
-
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actionCreators from './actions';
 import Component from './components';
 
 function mapStateToProps(state : any) {
-  const { workItems } = state.work;
+  const {
+    workItems,
+    filterIndustryOptions,
+    filterCatergoryOptions,
+    currentIndustryFilter,
+    currentCategoryFilter
+  } = state.work;
     return {
-      workItems
+      workItems,
+      filterIndustryOptions,
+      filterCatergoryOptions,
+      currentIndustryFilter,
+      currentCategoryFilter
     };
 }
 

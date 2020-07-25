@@ -31,12 +31,7 @@
     width: 585px;
     height: 500px;
 } 
-.work_item_title {
-
-}
-.work_item_description {
-
-}
-.work_item_more {
-
+.work_item_more{
+    color: #1a18f7;
+    font-weight: bold;
 }
